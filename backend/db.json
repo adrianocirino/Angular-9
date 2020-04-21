@@ -24,6 +24,16 @@
       "name": "Fogão ",
       "price": "1200.00",
       "id": 5
+    },
+    {
+      "name": "Lápis",
+      "price": "2.50",
+      "id": 6
+    },
+    {
+      "name": "Arroz",
+      "price": "4.50",
+      "id": 7
     }
   ]
 }
