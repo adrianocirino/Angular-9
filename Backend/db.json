@@ -3,16 +3,16 @@
     {
       "id": 1,
       "name": "Caneta BIC Azul",
-      "price": 5.89 
+      "price": 5.89
     },
     {
-      "name\n": "MAC BOOK PRO",
-      "price\n": "12000.00",
+      "name": "MAC BOOK PRO",
+      "price": "12000.00",
       "id": 2
     },
     {
-      "name\n": "Samsung S20+",
-      "price\n": "5000.00",
+      "name": "Samsung S20+",
+      "price": "5000.00",
       "id": 3
     }
   ]
