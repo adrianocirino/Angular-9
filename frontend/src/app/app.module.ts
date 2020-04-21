@@ -20,6 +20,7 @@ import { ProdutoCreateComponent } from './components/produto/produto-create/prod
 import { MatButtonModule} from '@angular/material/button';
 import { MatSnackBarModule} from '@angular/material/snack-bar';
 
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { MatSnackBarModule} from '@angular/material/snack-bar';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
