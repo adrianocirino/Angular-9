@@ -1,3 +1,4 @@
+import { ProdutoCreateComponent } from './components/produto/produto-create/produto-create.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
@@ -12,6 +13,11 @@ const routes: Routes = [
   {
     path: 'produtos',
     component: ProdutoCrudComponent
+  }
+  ,
+  {
+    path: 'produtos/create',
+    component: ProdutoCreateComponent
   }
 ];
 
