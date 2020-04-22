@@ -1,3 +1,4 @@
+import { HeaderService } from './../../template/header/header.service';
 import { Produto } from './../produto.model';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ProdutoService } from './../produto.service';
@@ -16,7 +17,7 @@ export class ProdutoDeleteComponent implements OnInit {
     price: null
   };
 
-  constructor(private produtoService: ProdutoService, private router: Router, private route: ActivatedRoute) { }
+  constructor(private produtoService: ProdutoService, private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
