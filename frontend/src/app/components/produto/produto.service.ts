@@ -38,4 +38,15 @@ export class ProdutoService {
     const url = `${this.baseUrl}/${produto.id}`;
     return this.http.put<Produto>(url, produto);
   }
+
+  // adriano
+  delete(produto: Produto): Observable<Produto> {
+    const url = `${this.baseUrl}/${produto.id}`;
+    return this.http.delete<Produto>(url);
+  }
+/*
+  delete(id: string): Observable<Produto> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Produto>(url);
+  }*/
 }

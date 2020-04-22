@@ -1,3 +1,4 @@
+import { ProdutoDeleteComponent } from './components/produto/produto-delete/produto-delete.component';
 import { ProdutoUpdateComponent } from './components/produto/produto-update/produto-update.component';
 import { ProdutoCreateComponent } from './components/produto/produto-create/produto-create.component';
 import { NgModule } from '@angular/core';
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'produtos/update/:id',
     component: ProdutoUpdateComponent
+  },
+  {
+    path: 'produtos/delete/:id',
+    component: ProdutoDeleteComponent
   },
 ];
 
